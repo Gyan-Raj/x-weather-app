@@ -30,7 +30,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-.outputBox {
+.weather-cards {
   height: 80%;
   width: 100%;
   padding: 32px 0;
@@ -38,18 +38,18 @@ button {
   justify-content: space-around;
   align-items: flex-start;
 }
-.output {
+.weather-card {
   height: 25%;
   width: 20%;
   background-color: white;
   border-radius: 4px;
   box-shadow: 4px 8px 12px gray;
 }
-.output > p:nth-child(1) {
+.weather-card > p:nth-child(1) {
   font-size: 20px;
   font-weight: 700;
   opacity: 0.9;
 }
-.output > p:nth-child(2) {
+.weather-card > p:nth-child(2) {
   font-size: 16px;
 }
